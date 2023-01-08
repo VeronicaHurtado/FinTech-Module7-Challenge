@@ -12,6 +12,7 @@ in order to identify possible fraudulent transactions and/or abnormal charges.
 ## Tasks to support the Analysis of the data
 1. **Data Modeling**: Defining a database model to store the credit card transactions data and create a new PostgreSQL 
 database using the model.
+
 <img src="./Images/erd.png" width="500"/>
 
 2. **Data Engineering**: Creating a database schema on PostgreSQL and populating a database from the CSV files available.
@@ -92,7 +93,7 @@ fraudulent transactions. These logical groups have been stored as Views for furt
 <img src="./Images/cardholder_18_plot.png" width="500"/>
 
 > When combining the data of both Cardholders, it is even more obvious that the consumption pattern for Cardholder 18 is
-> is abnormal. (Please refer to image below)
+> abnormal. (Please refer to image below)
 
 <img src="./Images/cardholders_2_18_plot.png" width="500"/>
 
@@ -104,4 +105,4 @@ fraudulent transactions. These logical groups have been stored as Views for furt
 > to image below). In addition, the consumption pattern is abnormally higher for the months of May and June, thus worth 
 > further investigation. In the meantime, we suggest this Credit Card should be immediately cancelled.
 
-<img src="./Images/cardholder_25_plot.png" width="500"/>
+<img src="Images/cardholder_25_boxplot.png" width="500"/>
